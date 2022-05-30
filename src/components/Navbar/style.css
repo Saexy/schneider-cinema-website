@@ -1,0 +1,142 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    overflow: hidden;
+    z-index: 200;
+}
+
+.navbar.fixed{
+    position: absolute;
+    top: 0px;
+}
+
+.navbar .logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .logo img{
+    cursor: pointer;
+}
+
+.navbar .logo .mobile-icon{
+    display: none;
+    width: 10%;
+    justify-content: flex-end;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar.light .logo .mobile-icon{
+    color: white;
+}
+
+.navbar.dark .logo .mobile-icon{
+    color: black;
+}
+
+.navbar .categories{
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar .categories .list{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar .categories .list .item{
+    font-family: gotham-bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-bottom: solid 1px transparent;
+}
+
+.navbar.light .categories .list .item{
+    color: white;
+}
+
+.navbar.dark .categories .list .item{
+    color: black;
+}
+
+.navbar.light .categories .list .item.active{
+    border-bottom: solid 1px white !important;
+}
+
+.navbar.light .categories .list .item:hover{
+    border-bottom: solid 1px white;
+}
+
+.navbar.light .categories .list .item.active:hover{
+    border-bottom: solid 1px rgb(88, 88, 88) !important;
+}
+
+.navbar.dark .categories .list .item.active{
+    border-bottom: solid 1px black !important;
+}
+
+.navbar.dark .categories .list .item:hover{
+    border-bottom: solid 1px black;
+}
+
+.navbar.dark .categories .list .item.active:hover{
+    border-bottom: solid 1px rgb(88, 88, 88) !important;
+}
+
+.navbar .categories .list .divider{
+    font-family: gotham-bold;
+    font-size: 1.2rem;
+}
+
+.navbar.light .categories .list .divider{
+    color: white;
+}
+
+.navbar.dark .categories .list .divider{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar .logo{
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+
+    .navbar .logo img{
+        margin-left: 2.5%;
+    }
+
+    .navbar .logo .mobile-icon{
+        display: flex;
+    }
+
+    .navbar .categories .list{
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar .categories .list.show{
+        display: flex;
+    }
+
+    .navbar .categories .list .divider{
+        display: none;
+    }
+}

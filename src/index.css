@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: luthier;
+    src: url("./assets/fonts/Luthier-Regular.ttf");
+}
+
+@font-face {
+    font-family: luthier-bold;
+    src: url("./assets/fonts/Luthier-Bold.ttf");
+}
+
+@font-face {
+    font-family: gotham;
+    src: url("./assets/fonts/Gotham.ttf");
+}
+
+@font-face {
+    font-family: gotham-bold;
+    src: url("./assets/fonts/GothamBold.ttf");
+}

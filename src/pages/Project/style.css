@@ -1,0 +1,52 @@
+.project-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description{
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description .image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.description .image img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description > .texts{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.description > .texts .individual{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.description > .texts .individual .title{
+    font-family: gotham-bold;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.description > .texts .individual .desc{
+    font-family: gotham;
+    font-size: 20px;
+}

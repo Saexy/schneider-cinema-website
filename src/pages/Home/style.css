@@ -1,0 +1,125 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .video video{
+    width: 100%;
+    filter: brightness(30%);
+}
+
+.home .video .videoTitle{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    font-size: 80px;
+    font-family: luthier-bold;
+    z-index: 50;
+    padding: 5%;
+}
+
+@media (max-width: 768px) {
+    .home .video .videoTitle{
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .home .video .videoTitle{
+        font-size: 100px;
+    }
+}
+
+.home .mission{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.6s ease-in-out;
+}
+
+.home .mission .section{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+}
+
+.home .mission .section .image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home .mission .section .image img{
+    width: 100%
+}
+
+.home .mission .section .text{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: gotham;
+}
+
+.home .mission .section .text .learn{
+    margin-top: 4%;
+    text-decoration: none;
+    padding: 5px 0px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-family: gotham;
+}
+
+.home .mission .section .text .learn:hover{
+    margin-top: 4%;
+    text-decoration: none;
+    padding: 5px 0px;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .home .mission .section{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .home .mission .section .image{
+        width: 100%;
+    }
+
+    .home .mission .section .text{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.home .mission > .title{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: gotham-bold;
+}

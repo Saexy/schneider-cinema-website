@@ -1,0 +1,75 @@
+.news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news > .list-news{
+    margin-top: 2%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news > .list-news .new{
+    display: flex;
+    width: 27.5%;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px 2.5px rgba(0,0,0,0.20);
+    margin: 2%;
+}
+
+.news > .list-news .new .image{
+    display: flex;
+    width: 100%;
+}
+
+.news > .list-news .new .image img{
+    display: flex;
+    width: 100%;
+}
+
+.news > .list-news .new > .texts{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news > .list-news .new > .texts .title{
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+    font-family: gotham-bold;
+}
+
+.news > .list-news .new > .texts .learn{
+    font-size: 1.10rem;
+    margin-top: 4%;
+    text-decoration: none;
+    padding: 5px 0px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: black;
+    font-family: gotham;
+}
+
+.news > .list-news .new > .texts .learn:hover{
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .news > .list-news{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .news > .list-news .new{
+        width: 75%;
+    }
+}
