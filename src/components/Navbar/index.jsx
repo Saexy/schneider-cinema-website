@@ -50,7 +50,7 @@ const Navbar = ({children, fixed, style}) => {
                 <div className="list">
                     <a onClick={(e) => {handleClickPage(``)}} className="item">Home</a>
                     <p className='divider'>|</p>
-                    <a onClick={(e) => {handleClickPage(`projects`)}} className="item">Projects</a>
+                    <a onClick={(e) => {handleClickPage(``)}} href="#projects" className="item">Projects</a>
                     <p className='divider'>|</p>
                     <a onClick={(e) => {handleClickPage(`team`)}} className="item">Team</a>
                     <p className='divider'>|</p>

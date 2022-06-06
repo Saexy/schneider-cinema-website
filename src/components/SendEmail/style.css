@@ -5,12 +5,22 @@
 }
 
 .sendmail .sendmail-header{
-    font-family: gotham-bold;
-    font-size: 25px;
     margin-bottom: 15px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.sendmail .sendmail-header .message{
+    font-family: gotham-bold;
+    font-size: 25px;
+    color: #9f5b26;
+    margin-bottom: 10px;
+}
+
+.sendmail .sendmail-header .email{
+    font-family: gotham;
+    font-size: 17.5;
 }
 
 .sendmail .sendmail-body{
@@ -35,9 +45,10 @@
 .sendmail .sendmail-body .text-field input{
     font-size: 15px;
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    padding: 5px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 0px;
+    padding-bottom: 5px;
     font-family: gotham;
     height: 30px;
 }
@@ -46,24 +57,9 @@
     outline: none;
 }
 
-.sendmail .sendmail-body .text-field textarea{
-    font-size: 15px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    padding: 5px;
-    font-family: gotham;
-    height: 100px;
-}
-
-.sendmail .sendmail-body .text-field textarea:focus{
-    outline: none;
-}
-
 .sendmail .sendmail-footer{
     width: 100%;
     display: flex;
-    justify-content: center;
 }
 
 .sendmail .sendmail-footer .form-button{
@@ -72,7 +68,7 @@
     font-size: 20px;
     font-family: gotham-bold;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     color: black;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -80,7 +76,6 @@
 
 .sendmail .sendmail-footer .form-button:hover{
     background-color: black;
-    border: 1px solid white;
     color: white;
 }
 

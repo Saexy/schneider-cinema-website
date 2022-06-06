@@ -32,7 +32,8 @@ const SendEmail = () => {
         <div className="sendmail">
             <form onSubmit={(e) => handleClickSendEmail(e)}>
                 <div className='sendmail-header'>
-                    <p>SEND US A MESSAGE</p>
+                    <p className='message'>Message us</p>
+                    <p className='email'>contact@schneidercinema.com</p>
                 </div>
                 <div className='sendmail-body'>
                     <div className='text-field'>
@@ -45,11 +46,11 @@ const SendEmail = () => {
                     </div>
                     <div className='text-field'>
                         <p>Message:</p>
-                        <textarea type="text" onChange={(e) => setMessage(e.target.value)} name="message"/>
+                        <input type="text" onChange={(e) => setMessage(e.target.value)} name="message"/>
                     </div>
                 </div>
                 <div className="sendmail-footer">
-                    <input type="submit" className='form-button' value="SEND MAIL" />
+                    <input type="submit" className='form-button' value="Send" />
                 </div>
             </form>
             

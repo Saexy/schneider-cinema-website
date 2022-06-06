@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import SendEmail from '../../components/SendEmail'
 
 import news from '../../models/news';
 

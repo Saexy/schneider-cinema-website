@@ -4,7 +4,6 @@ import Navbar from '../../components/Navbar';
 import Team1 from '../../assets/images/team_1.png'
 
 import Footer from '../../components/Footer'
-import SendEmail from '../../components/SendEmail'
 
 import './style.css'
 
