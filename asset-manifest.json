@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/schneider-cinema-website/static/css/main.417823f7.css",
-    "main.js": "/schneider-cinema-website/static/js/main.ac2111bf.js",
+    "main.css": "/schneider-cinema-website/static/css/main.7fba399f.css",
+    "main.js": "/schneider-cinema-website/static/js/main.af07e3d6.js",
     "static/media/home_background.mp4": "/schneider-cinema-website/static/media/home_background.8edc60a01f81639d9732.mp4",
     "static/media/about_2.png": "/schneider-cinema-website/static/media/about_2.2c2ede8292f69ed2b626.png",
     "static/media/1.png": "/schneider-cinema-website/static/media/1.aa49c40c889e04ecf76e.png",
@@ -9,15 +9,15 @@
     "static/media/film.png": "/schneider-cinema-website/static/media/film.6d43adaa9aa73dd4b842.png",
     "static/media/Luthier-Regular.ttf": "/schneider-cinema-website/static/media/Luthier-Regular.c48732112b141d11324d.ttf",
     "static/media/Luthier-Bold.ttf": "/schneider-cinema-website/static/media/Luthier-Bold.3192b0c3a99d48ea7c7c.ttf",
-    "static/media/Logo_Name.png": "/schneider-cinema-website/static/media/Logo_Name.569a358261524ff157ac.png",
+    "static/media/Logo_Name.png": "/schneider-cinema-website/static/media/Logo_Name.f65a7823b14f49008b62.png",
     "static/media/Gotham.ttf": "/schneider-cinema-website/static/media/Gotham.03e7ff609ba3bf798fa4.ttf",
     "static/media/GothamBold.ttf": "/schneider-cinema-website/static/media/GothamBold.108854bb27dee2dce854.ttf",
     "index.html": "/schneider-cinema-website/index.html",
-    "main.417823f7.css.map": "/schneider-cinema-website/static/css/main.417823f7.css.map",
-    "main.ac2111bf.js.map": "/schneider-cinema-website/static/js/main.ac2111bf.js.map"
+    "main.7fba399f.css.map": "/schneider-cinema-website/static/css/main.7fba399f.css.map",
+    "main.af07e3d6.js.map": "/schneider-cinema-website/static/js/main.af07e3d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.417823f7.css",
-    "static/js/main.ac2111bf.js"
+    "static/css/main.7fba399f.css",
+    "static/js/main.af07e3d6.js"
   ]
 }
