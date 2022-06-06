@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/schneider-cinema-website/static/css/main.7fba399f.css",
+    "main.css": "/schneider-cinema-website/static/css/main.24e67443.css",
     "main.js": "/schneider-cinema-website/static/js/main.af07e3d6.js",
     "static/media/home_background.mp4": "/schneider-cinema-website/static/media/home_background.8edc60a01f81639d9732.mp4",
     "static/media/about_2.png": "/schneider-cinema-website/static/media/about_2.2c2ede8292f69ed2b626.png",
@@ -13,11 +13,11 @@
     "static/media/Gotham.ttf": "/schneider-cinema-website/static/media/Gotham.03e7ff609ba3bf798fa4.ttf",
     "static/media/GothamBold.ttf": "/schneider-cinema-website/static/media/GothamBold.108854bb27dee2dce854.ttf",
     "index.html": "/schneider-cinema-website/index.html",
-    "main.7fba399f.css.map": "/schneider-cinema-website/static/css/main.7fba399f.css.map",
+    "main.24e67443.css.map": "/schneider-cinema-website/static/css/main.24e67443.css.map",
     "main.af07e3d6.js.map": "/schneider-cinema-website/static/js/main.af07e3d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fba399f.css",
+    "static/css/main.24e67443.css",
     "static/js/main.af07e3d6.js"
   ]
 }
